@@ -1,0 +1,27 @@
+{
+  "name": "product-api",
+  "version": "1.0.0",
+  "description": "RESTful Product API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukchukx/product-api.git"
+  },
+  "author": "Ukeoma Chukundah <uk_chukundah@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "homepage": "https://github.com/ukchukx/product-api"
+}
